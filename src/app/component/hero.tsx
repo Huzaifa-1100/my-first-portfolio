@@ -32,6 +32,7 @@ const Hero = () => {
             as I continue to grow and refine my skills in this exciting field.
           </p>
           <div className="flex justify-center">
+            {/* eslint-disable-next-line-no-unused-vars */}
             <Link href={"#Contact"}>
               <button className="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-700 rounded text-lg transition-all">
                 Contact
