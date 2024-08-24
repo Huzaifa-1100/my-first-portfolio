@@ -40,7 +40,7 @@ const NavBar = () => {
                 <ul className="gap-4 py-5 ">
                   <li>
                     <Link
-                      href={"/"}
+                      href={"#Hero"}
                       className="mr-5  hover:text-red-700 font-bold"
                     >
                       HOME
@@ -88,7 +88,7 @@ const NavBar = () => {
               </SheetContent>
             </Sheet>
             <div className="hidden lg:flex items-center px-10">
-              <Link href={"/"} className="mr-5  hover:text-red-700 font-bold">
+              <Link href={"#Hero"} className="mr-5  hover:text-red-700 font-bold">
                 HOME
               </Link>
 
